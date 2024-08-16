@@ -2,7 +2,7 @@
 Here's what each import statement is doing: */
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { filterTodos, markAllCompleted } from "../redux/actions";
+import { filterTodos, markAllCompleted } from "../redux/todoactions";
 
 /**
  * The `FilterButtons` component in JavaScript uses Redux hooks to dispatch filterTodos action based on

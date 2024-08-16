@@ -8,7 +8,7 @@ import {
   FILTER_TODOS,
   MARK_ALL_COMPLETED,
   UPDATE_SEARCH_TERM,
-} from "./ActionTypes";
+} from "./todoActionTypes";
 
 // Initial State
 /* The `const initialState` declaration is setting up the initial state for the todo application. It

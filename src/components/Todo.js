@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch} from "react-redux";
 import TodoList from "./TodoList";
 import FilterButtons from "./FilterButtons";
 import { BsSearch, BsPlus } from "react-icons/bs";
-import { addTodo, updateSearchTerm } from "../redux/actions";
+import { addTodo, updateSearchTerm } from "../redux/todoactions";
 
 /**
  * The Todo function defines state variables and a function to add a new todo item using Redux
@@ -43,11 +43,11 @@ const Todo = () => {
   };
 
  /* The `return` statement in the `Todo` component is rendering the JSX elements that make up the user
- interface for a personal TODO app. Here's a breakdown of what each part of the JSX code is doing: */
+ interface for a TODO app. Here's a breakdown of what each part of the JSX code is doing: */
   return (
     <div className="max-w-4xl mx-auto sm:mt-8 p-6 bg-gradient-to-r from-teal-300 to-indigo-300 rounded-lg shadow-lg">
       <h2 className="mt-3 mb-6 text-4xl font-extrabold text-center text-gray-900">
-        Personal TODO APP
+        TO-DO APP
       </h2>
 
       <div className="flex flex-col sm:flex-row items-center mb-6 gap-4">
