@@ -6,6 +6,9 @@ import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 const root = ReactDOM.createRoot(document.getElementById("root"));
+/* This code snippet is using ReactDOM's experimental `createRoot` API to render the React application.
+The `createRoot` function creates a root from a DOM element and returns a root object. The
+`root.render()` method is then called to render the application inside the root. */
 root.render(
   <Provider store={store}>
     <React.StrictMode>

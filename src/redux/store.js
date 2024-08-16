@@ -1,11 +1,6 @@
-/* This code snippet is setting up a Redux store using the `@reduxjs/toolkit` library in a JavaScript
-application. */
-import { configureStore } from "@reduxjs/toolkit";
+import { createStore } from "redux";
 import todoReducer from "./reducer";
 
-const store = configureStore({
-  reducer: {
-    todos: todoReducer,
-  },
-});
+const store = createStore(todoReducer);
+
 export default store;
