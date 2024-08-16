@@ -18,11 +18,12 @@ A React-Redux todo application where users can manage tasks by adding, editing, 
 
 ## Demo
 
-![screenshot](./src/Screenshot.png)
-![screenshot](./src/Screenshot.png)
-![screenshot](./src/Screenshot.png)
-![screenshot](./src/Screenshot.png)
-![screenshot](./src/Screenshot.png)
+![screenshot](./asserts/To-do1.png)
+![screenshot](./asserts/To-do2.png)
+![screenshot](./asserts/To-do3.png)
+![screenshot](./asserts/To-do4.png)
+![screenshot](./asserts/To-do5.png)
+
 
 
 The application provides a simple and intuitive interface for managing tasks efficiently. You can try adding tasks,and checking them off once completed.
@@ -61,7 +62,7 @@ Styling: CSS for styling components.
 3. Frontend Architecture
 Directory Structure
 
-![screenshot](./src/Screenshot.png)
+![screenshot](./asserts/FileStructure.png)
 
 Key Components
 App.js
