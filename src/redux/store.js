@@ -6,3 +6,14 @@ import todoReducer from './todoreducer'
 const store = createStore(todoReducer);
 
 export default store;
+
+// import { configureStore } from '@reduxjs/toolkit';
+// import todoReducer from './todoreducer';
+
+// const store = configureStore({
+//   reducer: {
+//     todos: todoReducer,
+//   },
+// });
+
+// export default store;
